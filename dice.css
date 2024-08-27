@@ -1,6 +1,6 @@
 body {
     margin: 30px 100px;
-    background-image: url(/assets/images/Taj\ mahal.jpg);
+    background-image: url(/Taj\ mahal.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -10,6 +10,7 @@ body {
     width: 130px;
     border-radius: 30px;
     transition: transform 1s ease;
+    margin-top: 230px;
     background-color: cadetblue;
 }
 
@@ -30,7 +31,7 @@ body {
     border-radius: 8px;
     height: 40px;
     width: 125px;
-    margin-top: 90px;
+    margin-top: 60px;
     background-color: black;
     color: white;
     cursor: pointer;
