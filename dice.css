@@ -1,7 +1,6 @@
 body {
     margin: 30px 100px;
     background-image: url(/assets/images/Taj\ mahal.jpg);
-    /* background-image: url(/assets/images/colosseum.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -10,11 +9,8 @@ body {
     height: 130px;
     width: 130px;
     border-radius: 30px;
-    /* background-image: url(/assets/images/Taj\ mahal.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat; */
-    /* background-color: rgb(167, 200, 195),rgb(41, 104, 159); */
     transition: transform 1s ease;
+    background-color: cadetblue;
 }
 
 .shadow {
