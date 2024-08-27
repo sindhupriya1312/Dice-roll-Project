@@ -25,7 +25,7 @@ btn.addEventListener('click', () => {
        setTimeout(() => {
               dice.classList.remove('shadow');
               num.innerHTML = diceRoll;
-               btn.style.backgroundColor = 'black'
+              btn.style.backgroundColor = 'black'
               btn.style.color = 'white'
               audio2.play();
        }, 1000);
