@@ -5,33 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="dice.css">
 </head>
-<link rel="stylesheet" href="./dice.css">
 
 <body>
-    
-    <h1>
-        <center><u>   ROLL THE DICE   </u></center>
-        
-    </h1>
-    <center>
-        <P id="para"><b>A dice rolling game typically involves using one or more dice to generate random numbers, which
-            players
-            then use to progress in the game or determine outcomes. These games vary widely in complexity, strategy, and
-            theme.</b></P>
-
-        <div id="dice">
+    <div class="container">
+        <h1>Dice Roller</h1>
+        <div id="dice" class="dice-box">
             <p id="num">0</p>
         </div>
-
-       <button id="btn"><b>ROLL THE DICE</b> </button> 
-    </center>
-
-
-    <audio id="bgm" src="./assets/dice-142528.mp3"></audio>
-    <audio id="bgm_2" src="./assets/guitar.wav"></audio>
-
-    <script src="./dice.js"></script>
+        <button id="roll-btn" class="roll-btn">Roll Dice</button>
+    </div>
+    <audio id="roll-sound-1" src="./assets/dice-142528.mp3"></audio>
+    <audio id="roll-sound-2" src="./assets/guitar.wav"></audio>
+    <script src="dice.js"></script>
 </body>
 
 </html>
